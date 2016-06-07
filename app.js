@@ -10,6 +10,9 @@ var appEnv = cfenv.getAppEnv();
 //Setup Cloudant Service.
 cloudantService = appEnv.getService("myMicroservicesCloudant");
 
+//Setup ServiceDiscovery
+var serviceDiscovery = require('./sd.js')
+
 //Setup middleware.
 var app = express();
 app.use(cors());

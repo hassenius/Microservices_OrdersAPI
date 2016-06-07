@@ -24,7 +24,8 @@
     "lodash": "latest",
     "mocha": "^2.3.3",
     "spec-xunit-file": "0.0.1-3",
-    "wd": "latest"
+    "wd": "latest",
+    "bluemix-service-discovery": "*"
   },
   "repository": {},
   "engines": {
