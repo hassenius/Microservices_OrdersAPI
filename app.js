@@ -1,5 +1,6 @@
 /*globals cloudantService:true */
 /*eslint-env node */
+require('newrelic');
 var express = require('express');
 var bodyParser = require('body-parser');
 var cfenv = require("cfenv");
